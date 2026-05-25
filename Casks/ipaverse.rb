@@ -4,10 +4,10 @@ cask "ipaverse" do
 
   url "https://github.com/bahattinkoc/ipaverse/releases/download/v#{version}/ipaverse.dmg"
   name "ipaverse"
-  desc "Download, resign, and sideload iOS-macOS apps from the App Store"
+  desc "Download, resign, and sideload iOS apps from the App Store"
   homepage "https://github.com/bahattinkoc/ipaverse"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ipaverse.app"
 
